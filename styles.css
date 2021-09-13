@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: whitesmoke;
+}
+
+table {
+	margin: 5em auto;
+	border-collapse: collapse;
+}
+th {
+	font-size: 1.4rem;
+	text-align: start;
+	background-color: rgb(42, 165, 93);
+	color: white;
+	padding: 1rem;
+}
+td {
+	padding: 1rem 1rem;
+	font-size: 1.1rem;
+	border-bottom: 2px solid black;
+}
+td:not(:first-child) {
+	text-align: center;
+	font-weight: bold;
+}
